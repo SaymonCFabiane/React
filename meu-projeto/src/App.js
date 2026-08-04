@@ -6,6 +6,7 @@ import "./App.css";
 // import List from "./components/List";
 import Evento from "./components/Evento";
 import Form from "./components/Form";
+import Contador from "./components/Contador";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Evento numero="1" />
       <Evento numero="2" />
       <Form />
+      <Contador />
       
     </div>
   );

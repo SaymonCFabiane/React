@@ -37,6 +37,7 @@ function Form() {
           <input type="submit" value="Cadastrar" />
         </div>
       </form>
+      <p>{name}</p>
     </>
   );
 }
